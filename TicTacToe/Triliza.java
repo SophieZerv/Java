@@ -253,10 +253,10 @@ public class Triliza implements ActionListener{
 					new Triliza();
 				}
 		}
-		if((buttons[0].getText()=="O") && (buttons[2].getText()=="O") &&  (buttons[3].getText()=="O")){
+		if((buttons[0].getText()=="O") && (buttons[1].getText()=="O") &&  (buttons[2].getText()=="O")){
 			buttons[0].setBackground(Color.GREEN);
-			buttons[2].setBackground(Color.GREEN);
-			buttons[3].setBackground(Color.GREEN);		
+			buttons[1].setBackground(Color.GREEN);
+			buttons[2].setBackground(Color.GREEN);		
 			textfield.setText("O wins!!!");
 			for(int i =0;i<=8;i++){
 				buttons[i].setEnabled(false);
